@@ -272,16 +272,3 @@ private:
     }
 
 };
-
-int main()
-{
-    setlocale(LC_ALL, "Rus");
-
-    //string formating
-    My_string DeepXSense = "\tпламя на поленьях\n\tза то, что мы не стали на колени\n\tперед вашими богами на молельнях\n\tи\n\tвы сжигали поколения\n\tи гнали галлелеев и регалии лелеяли.\n\tМы восстали бы, но\n\tчто против тысячной стаи клинок,\n\tи елси ваш бог действительно есть,\n\tто он поможет мне стать купиной";
-  //  cout << DeepXSense << endl;
-
-    //viselitsa
-    vis test("population");
-    return 0;
-}
